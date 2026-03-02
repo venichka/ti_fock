@@ -1,0 +1,19 @@
+name = "TI_quantum"
+uuid = "873f5bd9-12fe-411d-afdf-936b6983ade7"
+authors = ["Nikita <nefedkin@phystech.edu>"]
+version = "0.1.0"
+
+[deps]
+BigCombinatorics = "7b33fef7-ef1d-5d54-bb67-cf96d4c8a166"
+Nemo = "2edaba10-b0f1-5616-af89-8c11ac63239a"
+
+[compat]
+BigCombinatorics = "0.3"
+Nemo = "0.48"
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
