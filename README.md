@@ -58,9 +58,3 @@ julia --project=notebooks -e 'using Pkg; Pkg.instantiate()'
 ```
 
 The notebooks load the local package source directly from `../src/TI_quantum.jl`.
-
-## Publish checklist
-
-1. Ensure tests pass locally (`Pkg.test()`).
-2. Commit `src/`, `test/`, `notebooks/Project.toml`, and workflow files.
-3. Push to GitHub and confirm CI passes on the default branch.
